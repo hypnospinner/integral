@@ -3,7 +3,7 @@ from numpy import array
 
 a = 2.1
 b = 3.3
-exact = 4.46151
+exact = 4.461512705331194112840828080521604042844
 
 def f(x):
     return 4.5 * cos(7 * x) * exp(-2 * x / 3) + 1.4 * sin(1.5 * x) * exp(-x / 3) + 3
